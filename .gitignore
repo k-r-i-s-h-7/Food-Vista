@@ -1,0 +1,38 @@
+Dataset/
+FoodSeg/
+FoodSeg_YOLO/
+FoodSeg_COCO/
+# Ignore all .pt files
+*.pt
+*.pth
+
+predict4
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+*.json
+# Virtual environments
+yoloenv/
+venv/
+.env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# YOLO training artifacts
+runs/
+Segmentation/Yolo-seg/runs/
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# Large experiment outputs
+*.png
+*.jpg
+*.jpeg
